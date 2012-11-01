@@ -3,6 +3,6 @@ class Sample
 		puts "Hello, world"
 	end	
 end
-
-s = Sample.new
-s.hello
+ 	
+z = Sample.new
+z.hello

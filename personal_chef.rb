@@ -57,7 +57,7 @@ class PersonalChef
 		quantity.times do
 		puts "I'm making #{quantity} eggs for you, sir!"
 	end
-	    puts "I'm done!"
+	  puts "I'm done!"
 		return self		
 	end
 
@@ -73,14 +73,14 @@ class PersonalChef
 	end
 
 	def gameplan
-        meals = ["breakfast", "Lunch", "Dinner", "Dessert"]
-        meals.each do |meal|
-        puts "We'll have #{meal}..."
-      end
-
-       all_meals = meals.join(", ")
-       puts "In summary: #{all_meals}"
+    meals = ["breakfast", "Lunch", "Dinner", "Dessert"]
+    meals.each do |meal|
+    puts "We'll have #{meal}..."
     end
+
+    all_meals = meals.join(", ")
+    puts "In summary: #{all_meals}"
+  end
 end
 
 class Butler
